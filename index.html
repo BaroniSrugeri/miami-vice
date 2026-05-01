@@ -158,15 +158,15 @@
         <div class="caixa-vazia">
           <form>
             <label>Nome</label><br>
-            <input type="text" id="Nome" autocomplete="name" required><br>
+            <input type="text" id="Nome" autocomplete="name" size="50" required><br>
             <label>Telefone</label><br>
-            <input type="tel" id="telefone" autocomplete="tel"><br>
+            <input type="tel" id="telefone" maxlength="11" size="11" autocomplete="tel"><br>
             <label>Email</label><br>
-            <input type="email" id="email" autocomplete="email" required><br>
+            <input type="email" id="email" autocomplete="email" size="50" required><br>
             <label>Quantidade de ingressos</label><br>
             <input type="number" id="ingressos" min="1" max="6" step="2" required><br>
-            <button type="submit">Enviar</button>
             <button type="reset">Limpar</button>
+            <button type="submit">Enviar</button>
           </form>
         </div>
       </div>
